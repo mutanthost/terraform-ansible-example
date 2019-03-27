@@ -19,3 +19,8 @@
       apt:
         name: nginx
         update_cache: true
+    - name: Install mysqld
+      become: true
+      apt:
+        name: mysql_db
+        update_cache: true  

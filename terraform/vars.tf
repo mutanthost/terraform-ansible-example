@@ -1,5 +1,5 @@
 variable "public_key_path" {
-  default = "~/.ssh/id_rsa.pub"
+  default = "~/.ssh/mutanthost_id_rsa.pub"
 }
 
 variable "key_name" {
@@ -9,7 +9,7 @@ variable "key_name" {
 variable "tags" {
   type = "map"
   default = {
-    Repo = "https://github.com/startup-systems/terraform-ansible-example"
+    Repo = "https://github.com/mutanthost/terraform-ansible-example"
     Terraform = true
   }
 }
